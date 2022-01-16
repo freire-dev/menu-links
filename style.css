@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Ubuntu:ital,wght@0,700;1,400&display=swap');
+
+*{
+    font-family: 'Ubuntu', 'Arial';
+}
+
+html{
+    background: #000713;
+}
+
+.home{
+    margin: 15px;
+    padding: 40px;
+    border: 5px solid white;
+    border-radius: 20px;
+    background: url(banner.png) no-repeat center;
+    color: white;
+}
+
+.home h1{
+    text-align: center;
+    margin-left: 60px;
+}
+
+.home span{
+    color: #0051CE;
+}
+
+/* Frames em geral */
+
+.frames{
+    background: black;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 25px 0;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid white ;
+}
+
+.frames ion-icon{
+    margin-left: -250px;
+    font-size: 40px;
+    margin-bottom: -35px;
+}
+
+.frames .frame-portfolio,
+.frame-facebook,
+.frame-instagram,
+.frame-whatsapp{
+    padding: 0 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.frames .texto a{
+    display: inline-block;
+    margin-right: -70px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white; 
+}
+
+/* Frames individual */
+
+.frames .frame-portfolio{
+    background: rgba(5, 65, 70, 0.829);
+    color:white;
+    border: 2px solid rgba(5, 65, 70, 0.829)
+}
+
+.frames .frame-portfolio:hover{
+    background: none;
+    color: rgba(5, 65, 70, 0.829);
+}
+
+.frames .frame-facebook{
+    background: rgb(40, 40, 219);
+    color:white;
+    border: 2px solid rgb(40, 40, 219)
+}
+
+.frames .frame-facebook:hover{
+    background: none;
+    color: rgb(40, 40, 219);
+}
+
+.frames .frame-instagram{
+    background:  rgb(197, 2, 77);
+    color:white;
+    border: 2px solid rgb(197, 2, 77);
+}
+
+.frames .frame-instagram:hover{
+    background: none;
+    color:  rgb(197, 2, 77);
+}
+
+.frames .frame-whatsapp{
+    background:  rgb(4, 129, 14);
+    color:white;
+    border: 2px solid rgb(4, 129, 14);
+}
+
+.frames .frame-whatsapp:hover{
+    background: none;
+    color:  rgb(4, 129, 14);
+}
+
+@media (max-width: 1182px){
+    .home{
+        background: black;
+    }
+
+.frames .frame-portfolio,
+.frame-facebook,
+.frame-instagram,
+.frame-whatsapp{
+    padding: 0 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+}
+
+@media (max-width: 1104px){
+
+    
+
+    .frames .frame-portfolio,
+    .frame-facebook,
+    .frame-instagram,
+    .frame-whatsapp{
+        padding: 0 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    } 
+
+
+}
+
+@media (max-width: 928px){
+
+    .frames{
+        background: black;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 25px 0;
+    }
+
+}
+
+@media (max-width: 710px){
+
+    .frames{
+        background: black;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 25px 0;
+    }
+
+}
+
+@media (max-width: 484px){
+
+    .frames{
+        background: black;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        padding: 30px 0;
+    }
+
+    .frames .frame-portfolio,
+    .frame-facebook,
+    .frame-instagram,
+    .frame-whatsapp{
+        padding: 0 10px;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .frames ion-icon{
+        margin-left: -150px;
+        font-size: 35px;
+        margin-bottom: -27px;
+    }
+
+    .frames .texto a{
+        display: inline-block;
+        margin-right: -70px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: white; 
+    }
+
+    .home{
+        margin: 15px;
+        padding: 5px;
+        border: 5px solid white;
+        border-radius: 20px;
+        background: url(banner.png) no-repeat center;
+        color: white;
+    }
+
+    .home h1{
+        margin-left: 10px;
+    }
+
+}
